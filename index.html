@@ -16,39 +16,52 @@
     <div class="footer">
     </div>
     <div class="content">
-<pre>#curvyButts {
-position:relative;
-height:400px;
-width:300px;
-background-color: #0094b3;
-border: 1px solid #0094b3;
-overflow:hidden;
+<pre><code>#curvyButts {
+  position:relative;
+  height:400px;
+  width:300px;
+  background-color: #0094b3;
+  border: 1px solid #0094b3;
+  overflow:hidden;
 }
-.curvyContent {
-position:absolute;
-left:0px;
-right:0px;
-bottom:20px;
-top:-130px;
-background-color: #fff;
-border-radius: 130px/39px;
-overflow:auto;
+
+#curvyButts .content {
+  position:absolute;
+  left:0px;
+  right:0px;
+  bottom:20px;
+  top:-130px;
+  background-color: #fff;
+  border-radius: 130px/39px;
+  overflow:auto;
 }
-<p>.curvyFooter {
-position:absolute;
-bottom:0;
-left:0;
-width:100%;
-height:39px;
-background-color: #0094b3;
-background-image:
-linear-gradient(
-to bottom,
-#0094b3,
-#00D4FF,
-#0094b3
-);
-}</pre>
+
+#curvyButts .content pre{
+  margin:10px;
+  padding:10px;
+  overflow:auto;
+  position:relative;
+  top:130px;
+  height:60%;
+  width:90%;
+}
+
+#curvyButts .footer {
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:39px;
+  background-color: #0094b3;
+  background-image:
+    linear-gradient(
+      to bottom, 
+      #0094b3, 
+      #00D4FF, 
+      #0094b3
+    );
+}
+</code></pre>
     </div>
   </div>
   <script>
