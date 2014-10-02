@@ -7,7 +7,7 @@
   overflow:hidden;
 }
 
-.curvyContent {
+#curvyButts .content {
   position:absolute;
   left:0px;
   right:0px;
@@ -17,7 +17,8 @@
   border-radius: 130px/39px;
   overflow:auto;
 }
-.curvyContent pre{
+
+#curvyButts .content pre{
   margin:10px;
   padding:10px;
   overflow:auto;
@@ -26,7 +27,8 @@
   height:60%;
   width:90%;
 }
-.curvyFooter {
+
+#curvyButts .footer {
   position:absolute;
   bottom:0;
   left:0;
