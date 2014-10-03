@@ -65,6 +65,46 @@
     </div></div>
   </div>
   <script>
+    $(document).ready( function () {
+  $(".blingit").on('click', function() { $(".blingit").hide('slow', function() { razzledazzle(); } ); } );
+  }
+);
+                  
+
+var razzledazzle = function () {
+var ele = $(".Template");
+ele.show("slow");
+ele.css("display","block");
+
+var limit=50, // Max number of stars
+body=$('.bling');
+loop={
+ //initilizeing
+ start:function(){
+  for (var i=0; i <= limit; i++) {
+   var star=this.newStar();
+   star.style.top=this.rand()*100-15+"%";
+   star.style.left=this.rand()*100-15+"%";
+   star.style.webkitAnimationDelay=this.rand()+"s";
+   star.style.mozAnimationDelay=this.rand()+"s";
+   body.append(star);
+  }
+ },
+ //to get random number
+ rand:function(){
+  return Math.random();
+ },
+ //createing html dom for star
+ newStar:function(){
+   var d = document.createElement('div');
+   d.innerHTML = '<figure class="star"><figure class="star-top"></figure><figure class="star-bottom"></figure></figure>';
+   return d.firstChild;
+ },
+};
+loop.start();
+};
+  </script>
+  <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
