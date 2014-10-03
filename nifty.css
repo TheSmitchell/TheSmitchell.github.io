@@ -93,5 +93,10 @@ font-size:1.2rem;
   50%  { -moz-transform: scale(0.25); opacity: 0; }
   100% { -moz-transform: scale(0.5); opacity: 1; }
 }
+@-ms-keyframes glitter {
+  0%   { -ms-transform: scale(0.5); opacity: 1; }
+  50%  { -ms-transform: scale(0.25); opacity: 0; }
+  100% { -ms-transform: scale(0.5); opacity: 1; }
+}
 
 
