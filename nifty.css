@@ -59,7 +59,6 @@ font-size:1.2rem;
   height:300px;
   overflow:hidden;
 }
-
 .bling .blingit {
   background-color: pink;
   border-radius: 1rem;
@@ -74,32 +73,25 @@ font-size:1.2rem;
   bottom:0;
   margin:auto;
 }
-
-.Template {
-  display:none;
-}
-
-.star {
+.bling .star {
   box-shadow: 0 0 0 1em gray, 0 1em 0 1em gray, -2.5em 1.5em 0 .5em gray, 2.5em 1.5em 0 .5em gray, -3em -3em 0 0 gray, 3em -3em 0 0 gray, -2em -2em 0 0 gray, 2em -2em 0 0 gray, -3em -1em 0 0 gray, -2em -1em 0 0 gray, 2em -1em 0 0 gray, 3em -1em 0 0 gray, -4em 0 0 0 gray, -3em 0 0 0 gray, 3em 0 0 0 gray, 4em 0 0 0 gray, -5em 1em 0 0 gray, -4em 1em 0 0 gray, 4em 1em 0 0 gray, 5em 1em 0 0 gray, -5em 2em 0 0 gray, 5em 2em 0 0 gray, -5em 3em 0 0 gray, -3em 3em 0 0 gray, 3em 3em 0 0 gray, 5em 3em 0 0 gray, -2em 4em 0 0 gray, -1em 4em 0 0 gray, 1em 4em 0 0 gray, 2em 4em 0 0 gray; background: gray; width: 1em; height: 1em; overflow: hidden; margin: 50px 0 70px 65px;
-	position: absolute;
-	
-	animation: glitter 4.5s linear 0s infinite normal;
-	-webkit-animation: glitter 4.5s linear 0s infinite normal;
-	-moz-animation: glitter 4.5s linear 0s infinite normal;
-	-ms-animation: glitter 4.5s linear 0s infinite normal;
-	-o-animation: glitter 4.5s linear 0s infinite normal;
+  position: absolute;
+  animation: glitter 4.5s linear 0s infinite normal;
+  -webkit-animation: glitter 4.5s linear 0s infinite normal;
+  -moz-animation: glitter 4.5s linear 0s infinite normal;
+  -ms-animation: glitter 4.5s linear 0s infinite normal;
+  -o-animation: glitter 4.5s linear 0s infinite normal;
   transform: scale3d(0.5,0.5,0.5);
 }
-/*css3 keyframes for glittering effect*/
 @-webkit-keyframes glitter {
-	0%   { -webkit-transform: scale(0.5); opacity: 1; }
-	50%  { -webkit-transform: scale(0.25); opacity: 0; }
-	100% { -webkit-transform: scale(0.5); opacity: 1; }
+  0%   { -webkit-transform: scale(0.5); opacity: 1; }
+  50%  { -webkit-transform: scale(0.25); opacity: 0; }
+  100% { -webkit-transform: scale(0.5); opacity: 1; }
 }
 @-moz-keyframes glitter {
-	0%   { -moz-transform: scale(0.5); opacity: 1; }
-	50%  { -moz-transform: scale(0.25); opacity: 0; }
-	100% { -moz-transform: scale(0.5); opacity: 1; }
+  0%   { -moz-transform: scale(0.5); opacity: 1; }
+  50%  { -moz-transform: scale(0.25); opacity: 0; }
+  100% { -moz-transform: scale(0.5); opacity: 1; }
 }
 
 
